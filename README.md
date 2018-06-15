@@ -1,4 +1,4 @@
-AWS Lambda/API Gateway starter / Groovy 
+AWS Lambda + API Gateway starter / Groovy 
 ===============================================
 
 ### Dependencies
