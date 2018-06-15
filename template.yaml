@@ -1,0 +1,18 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Transform: 'AWS::Serverless-2016-10-31'
+Description: 'SAM template for Serverless framework service: '
+Resources:
+  Hello:
+    Type: 'AWS::Serverless::Function'
+    Properties:
+      Handler: com.hello.Handler
+      Runtime: java8
+      CodeUri: build/distributions/hello.zip
+      MemorySize: 128
+      Timeout: 3
+      Events:
+        ListResource:
+          Type: Api 
+          Properties:
+            Path: /resource
+            Method: get
