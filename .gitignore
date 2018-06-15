@@ -5,6 +5,7 @@
 /.settings/
 .project
 .classpath
+.iml
 
 # Package Files
 *.jar
