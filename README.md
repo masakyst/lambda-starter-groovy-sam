@@ -7,6 +7,9 @@ AWS Lambda/API Gateway starter / Groovy
 * docker
 * gradle
 
+
+### Build
+
     $ npm install
     $ gradle build
     $ npm run startapi
