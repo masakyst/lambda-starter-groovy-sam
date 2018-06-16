@@ -12,4 +12,4 @@ AWS Lambda + API Gateway starter / Groovy
     $ npm install
     $ npm run build
     $ npm run startapi
-    $ http GET http://127.0.0.1:3000/resource
+    $ curl -X GET http://127.0.0.1:3000/resource 
