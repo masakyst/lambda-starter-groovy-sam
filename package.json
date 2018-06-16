@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "gradle build",
+    "build": "./gradlew build",
+    "clean": "./gradlew clean",
     "startapi": "sam local start-api"
   },
   "keywords": [],
